@@ -45,8 +45,6 @@ it('it should render img1 after incorrect guess', function() {
     .simulate('click', {target: { value: "z" }})
 
   expect(wrapper.html()).toContain(img1)
-  // expect(wrapper.exists('a')).toEqual(true);
-  // expect(wrapper.html()).toContain("Think of a Question");
 });
 
 
@@ -59,7 +57,59 @@ it('it should update number of wrong guesses', function() {
   expect(wrapper.state('nWrong')).toEqual(1);
   // expect(wrapper.exists('a')).toEqual(true);
   // expect(wrapper.html()).toContain("Think of a Question");
- 
+});
+
+it('it should contain an image after maxGuesses', function() {
+  let wrapper = mount(<Hangman />);
+  // simulate maxGuesses
+  wrapper
+    .find("button[value='z']")
+    .simulate('click', {target: { value: "z" }})
+  wrapper
+    .find("button[value='y']")
+    .simulate('click', {target: { value: "y" }})
+  wrapper
+    .find("button[value='w']")
+    .simulate('click', {target: { value: "w" }})
+  wrapper
+    .find("button[value='v']")
+    .simulate('click', {target: { value: "v" }})
+  wrapper
+    .find("button[value='t']")
+    .simulate('click', {target: { value: "t" }})
+  wrapper
+    .find("button[value='u']")
+    .simulate('click', {target: { value: "u" }})
+  wrapper
+    .find("button[value='b']")
+    .simulate('click', {target: { value: "b" }})
+
+  expect(wrapper.html()).toContain('.jpg')
+});
+
+it('it should not allow clicks after maxGuesses', function() {
+  let wrapper = mount(<Hangman />);
+  // simulate maxGuesses
+  wrapper
+    .find("button[value='z']")
+    .simulate('click', {target: { value: "z" }})
+  wrapper
+    .find("button[value='y']")
+    .simulate('click', {target: { value: "y" }})
+  wrapper
+    .find("button[value='w']")
+    .simulate('click', {target: { value: "w" }})
+  wrapper
+    .find("button[value='v']")
+    .simulate('click', {target: { value: "v" }})
+  wrapper
+    .find("button[value='t']")
+    .simulate('click', {target: { value: "t" }})
+wrapper
+    .find("button[value='u']")
+    .simulate('click', {target: { value: "u" }})
+
+  expect(wrapper.html()).not.toContain('button')
 });
 
 // it('renders correct message', function() {
