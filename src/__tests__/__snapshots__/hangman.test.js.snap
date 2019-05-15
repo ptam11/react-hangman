@@ -22,6 +22,7 @@ exports[`matches snapshot 1`] = `
   </p>
   <p>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="a"
       onClick={[Function]}
@@ -30,6 +31,7 @@ exports[`matches snapshot 1`] = `
       a
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="b"
       onClick={[Function]}
@@ -38,6 +40,7 @@ exports[`matches snapshot 1`] = `
       b
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="c"
       onClick={[Function]}
@@ -46,6 +49,7 @@ exports[`matches snapshot 1`] = `
       c
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="d"
       onClick={[Function]}
@@ -54,6 +58,7 @@ exports[`matches snapshot 1`] = `
       d
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="e"
       onClick={[Function]}
@@ -62,6 +67,7 @@ exports[`matches snapshot 1`] = `
       e
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="f"
       onClick={[Function]}
@@ -70,6 +76,7 @@ exports[`matches snapshot 1`] = `
       f
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="g"
       onClick={[Function]}
@@ -78,6 +85,7 @@ exports[`matches snapshot 1`] = `
       g
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="h"
       onClick={[Function]}
@@ -86,6 +94,7 @@ exports[`matches snapshot 1`] = `
       h
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="i"
       onClick={[Function]}
@@ -94,6 +103,7 @@ exports[`matches snapshot 1`] = `
       i
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="j"
       onClick={[Function]}
@@ -102,6 +112,7 @@ exports[`matches snapshot 1`] = `
       j
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="k"
       onClick={[Function]}
@@ -110,6 +121,7 @@ exports[`matches snapshot 1`] = `
       k
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="l"
       onClick={[Function]}
@@ -118,6 +130,7 @@ exports[`matches snapshot 1`] = `
       l
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="m"
       onClick={[Function]}
@@ -126,6 +139,7 @@ exports[`matches snapshot 1`] = `
       m
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="n"
       onClick={[Function]}
@@ -134,6 +148,7 @@ exports[`matches snapshot 1`] = `
       n
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="o"
       onClick={[Function]}
@@ -142,6 +157,7 @@ exports[`matches snapshot 1`] = `
       o
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="p"
       onClick={[Function]}
@@ -150,6 +166,7 @@ exports[`matches snapshot 1`] = `
       p
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="q"
       onClick={[Function]}
@@ -158,6 +175,7 @@ exports[`matches snapshot 1`] = `
       q
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="r"
       onClick={[Function]}
@@ -166,6 +184,7 @@ exports[`matches snapshot 1`] = `
       r
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="s"
       onClick={[Function]}
@@ -174,6 +193,7 @@ exports[`matches snapshot 1`] = `
       s
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="t"
       onClick={[Function]}
@@ -182,6 +202,7 @@ exports[`matches snapshot 1`] = `
       t
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="u"
       onClick={[Function]}
@@ -190,6 +211,7 @@ exports[`matches snapshot 1`] = `
       u
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="v"
       onClick={[Function]}
@@ -198,6 +220,7 @@ exports[`matches snapshot 1`] = `
       v
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="w"
       onClick={[Function]}
@@ -206,6 +229,7 @@ exports[`matches snapshot 1`] = `
       w
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="x"
       onClick={[Function]}
@@ -214,6 +238,7 @@ exports[`matches snapshot 1`] = `
       x
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="y"
       onClick={[Function]}
@@ -222,6 +247,7 @@ exports[`matches snapshot 1`] = `
       y
     </button>
     <button
+      className="Hangman-ltr-btn"
       disabled={false}
       key="z"
       onClick={[Function]}
@@ -230,5 +256,11 @@ exports[`matches snapshot 1`] = `
       z
     </button>
   </p>
+  <button
+    className="Hangman-reset"
+    onClick={[Function]}
+  >
+     Restart 
+  </button>
 </div>
 `;
